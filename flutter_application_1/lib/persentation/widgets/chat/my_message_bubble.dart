@@ -12,11 +12,11 @@ class MyMessageBubble extends StatelessWidget {
       children: [
         Container(
           decoration: BoxDecoration(
-              color: Colors.black, borderRadius: BorderRadius.circular(20)),
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+              color: Colors.red, borderRadius: BorderRadius.circular(20)),
+          child: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Text(
-              'Laboris duis dolore',
+              'Mi mensaje',
               style: TextStyle(color: Colors.white),
             ),
           ),

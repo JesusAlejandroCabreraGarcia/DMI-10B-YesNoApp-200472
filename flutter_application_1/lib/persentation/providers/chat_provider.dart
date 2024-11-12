@@ -3,11 +3,11 @@ import 'package:flutter_application_1/domain/entities/message.dart';
 
 class ChatProvider extends ChangeNotifier {
   List<Message> message = [
-    Message(text: 'Hello, how are you?', fromWho: FromWho.me),
-    Message(text: 'Hello, how are you?', fromWho: FromWho.me),
+    Message(text: 'Hola mi amor', fromWho: FromWho.me),
+    Message(text: 'Ya regresaste del trabajo?', fromWho: FromWho.me),
   ];
 
   Future<void> sendMessage(String text) async {
-    // TODO: implementar metodo
+    // TODO: Implementar metodo
   }
 }
